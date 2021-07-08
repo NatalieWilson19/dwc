@@ -1,4 +1,13 @@
-.bg {
-    height: 300px;
-    width: 300px;
+.Heading {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: Tahoma, Helvetica, san-serif;
+    padding-top: 10%;
+}
+.subHead {
+    font-size: 20px;
+    font-style: italic;
+    text-transform: none;
+
 }

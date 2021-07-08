@@ -1,6 +1,6 @@
 import React from "react";
 import back from '../../public/roofView.jpg'
-
+import './Home.css'
 /*TODO add a little more */
 
 function Home() {
@@ -10,13 +10,21 @@ function Home() {
         style={{
           backgroundImage: 'url('+back+')',
           backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundAttachment: "fixed",
           height: "100vh",
+          width: "100%",
           color: "#f5f5f5"
         }}
       >
-        <h1>Duncan Wilson Construction</h1>
-        <h2>Over 40 years of experience in the Bay Area</h2>
-      </div>
+      <div class="Heading">
+      <p> Duncan Wilson Construction</p>
+      <div class="subHead">
+      <p> Over 40 years of experience in the Bay Area</p>
+       </div>
+       </div>
+       </div>
+
   );
 }
 
