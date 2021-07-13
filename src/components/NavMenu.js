@@ -19,7 +19,7 @@ function NavMenu() {
             <Navbar.Collapse id="basic-navbar-nav">
                 
             <Nav.Link href="/" >Home</Nav.Link>
-            <Nav.Link href="#services" id="projects-id">Services</Nav.Link>
+            <Nav.Link href="#services" id="services-id">Services</Nav.Link>
             <Nav.Link href="#contact" id="contact-id">Contact</Nav.Link>
         </Navbar.Collapse>
       </Navbar>
