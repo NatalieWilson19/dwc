@@ -21,17 +21,6 @@ function NavMenu() {
         <Nav.Link href="#contact" id="contact-id" class="ml-auto">Contact</Nav.Link>
       </Navbar.Collapse>
     </Navbar>
-    /*<div>
-        <Navbar className="navigation" expand="lg" fixed="top">
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-                
-            <Nav.Link href="/" class="ml-auto" >Home</Nav.Link>
-            <Nav.Link href="#services" id="services-id" class="ml-auto">Services</Nav.Link>
-            <Nav.Link href="#contact" id="contact-id" class="ml-auto">Contact</Nav.Link>
-        </Navbar.Collapse>
-      </Navbar>
-    </div>*/
   );
 }
 export default NavMenu
