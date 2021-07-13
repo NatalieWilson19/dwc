@@ -9,7 +9,7 @@ function Services() {
 
         <div className="section-title" id={'services'} display={'block'}>
             <p> Services </p>
-            <div className="row">
+            <div class="wrapper">
             <div className="service-title">
                 <p> Waterproofing for Decks </p>
                     <div className="description">
@@ -32,7 +32,7 @@ function Services() {
                         </p>
                     </div>
             </div>
-        </div>
+            </div>
         </div>
 
     );
