@@ -1,0 +1,13 @@
+.title {
+    font-size: 30px;
+    position: relative;
+    float: center;
+    text-align: center;
+    margin-top: 670px;
+    font-family: montserrat, sans-serif;
+}
+
+.body {
+    font-size: 14px;
+    margin-top: 1.25%;
+}
