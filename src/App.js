@@ -7,8 +7,8 @@ import Services from './components/Services'
 function App() {
   return (
     <div className="App">
-      <Home />
       <NavMenu />
+      <Home />
       <Services />
     </div>
   );

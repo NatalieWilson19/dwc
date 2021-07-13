@@ -13,17 +13,25 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function NavMenu() {
 
   return (
-    <div>
+    <Navbar>
+      <Navbar.Toggle />
+      <Navbar.Collapse className="justify-content-end" fixed="top">
+        <Nav.Link href="/" class="ml-auto" >Home</Nav.Link>
+        <Nav.Link href="#services" id="services-id" class="ml-auto">Services</Nav.Link>
+        <Nav.Link href="#contact" id="contact-id" class="ml-auto">Contact</Nav.Link>
+      </Navbar.Collapse>
+    </Navbar>
+    /*<div>
         <Navbar className="navigation" expand="lg" fixed="top">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 
-            <Nav.Link href="/" >Home</Nav.Link>
-            <Nav.Link href="#services" id="services-id">Services</Nav.Link>
-            <Nav.Link href="#contact" id="contact-id">Contact</Nav.Link>
+            <Nav.Link href="/" class="ml-auto" >Home</Nav.Link>
+            <Nav.Link href="#services" id="services-id" class="ml-auto">Services</Nav.Link>
+            <Nav.Link href="#contact" id="contact-id" class="ml-auto">Contact</Nav.Link>
         </Navbar.Collapse>
       </Navbar>
-    </div>
+    </div>*/
   );
 }
 export default NavMenu

@@ -3,28 +3,15 @@
     height: 50px;
   }
 
-.navbar-text{
-    color: grey !important;
-    font-size: 22px;
-    font-family: Verdana, sans-serif;
-    letter-spacing: 3px;
-    text-transform: none;
-}
   .nav-link {
     color: grey !important;
     font-family: montserrat, sans-serif;
     font-size: 14px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    position: relative;
-    left: 950px;
+    /*position: relative;
+    padding-left: 950px;*/
 }
   .nav-link:hover {
     color: gray !important;
   }
-
-.svg {
-  position: relative;
-  top: 50px;
-  margin-bottom: 58px;
-}

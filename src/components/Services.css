@@ -7,14 +7,11 @@
     text-transform: uppercase;
     padding-top: 20px;
 }
-
 .service-title{
     color: #000000;
-    font-size: 30px;
-    float: left;
+    font-size: 28px;
     letter-spacing: 0px;
     text-transform: none;
-    width: 33.33%;
 }
 
   /* Clear floats after the columns */
@@ -24,9 +21,14 @@
     clear: both;
   }
   .description {
-    float: left;
     color: #000000;
-    text-align: left;
     font-size: 14px;
     text-align: center;
+    word-wrap: break-word;
+    float: left;
 }
+/*
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  } */
