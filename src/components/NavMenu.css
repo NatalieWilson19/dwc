@@ -1,6 +1,8 @@
 .navigation {
     background: white;
     height: 50px;
+    position: sticky;
+    top: 0
   }
 
   .nav-link {

@@ -13,6 +13,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function NavMenu() {
 
   return (
+    <div className="navigation">
     <Navbar>
       <Navbar.Toggle />
       <Navbar.Collapse className="justify-content-end" fixed="top">
@@ -21,6 +22,7 @@ function NavMenu() {
         <Nav.Link href="#contact" id="contact-id" class="ml-auto">Contact</Nav.Link>
       </Navbar.Collapse>
     </Navbar>
+    </div>
   );
 }
 export default NavMenu
