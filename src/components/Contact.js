@@ -3,16 +3,17 @@ import './Contact.css'
 
 function Contact() {
     return(
+        <div className="body">
         <div className="title" id="contact" display="block">
             <p>
-                Want to get in touch?
+                Contact Us
             </p>
-        <div className="body">
-            <p> Send me an email or reach out to me on LinkedIn</p>
-            <a href="mailto:nataliewilson519@gmail.com" target="_blank" rel="noopener noreferrer" />
+        <div className="text">
+            <p> Contact us for any of your waterpoofing needs </p>
+            <a href="mailto:dwcbuild@gmail.com" target="_blank" rel="noopener noreferrer" />
         </div>
         </div>
-
+        </div>
     );
 }
 
