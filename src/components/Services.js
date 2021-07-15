@@ -11,6 +11,8 @@ href="https://icons8.com">Icons8</a> */
 function Services() {
     return (
 
+        <div className="whole-section">
+
         <div className="section-title" id={'services'} display={'block'}>
             <p> Services </p>
             <div class="wrapper">
@@ -42,6 +44,7 @@ function Services() {
                     </div>
             </div>
             </div>
+        </div>
         </div>
 
     );
