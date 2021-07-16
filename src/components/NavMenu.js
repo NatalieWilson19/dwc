@@ -4,7 +4,6 @@ import Nav from "react-bootstrap/Nav";
 import "./NavMenu.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-/* I used this website: https://getwaves.io/ to generate the svg code to create the wave */
 
 /* Explanation for why rel="noopener" is important: https://mathiasbynens.github.io/rel-noopener/#hax */
 
