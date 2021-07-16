@@ -1,5 +1,6 @@
 .body {
-    background-color: #023E8A;
+    /*#273b87*/
+    background-color: #273b87;
     /*margin-top: 250px;*/
     width: 100%;
     height: 100vh;
@@ -7,12 +8,12 @@
 
 }
 .title {
+    color: white ;
     font-size: 40px;
     position: relative;
     float: left;
     text-align: left;
     font-family: montserrat, sans-serif;
-    color: white;
     padding: 90px 10px 70px 70px;
     width: 45%;
 

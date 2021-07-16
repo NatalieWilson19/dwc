@@ -1,0 +1,51 @@
+.page{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.about-title {
+    float: right;
+    color: black;
+    font-size: 40px;
+    width: 50%;
+    /*padding: 80px;*/
+    text-align: center;
+    margin: auto;
+}
+
+.checklist{
+    float: left;
+    width: 38%;
+    height: 60vh;
+    margin: auto;
+    /*padding: 40px;
+    margin: 70px; */
+    background-color: #273b87;
+    color: white;
+    padding: 50px;
+
+}
+
+.checklist-item {
+    width: 100%;
+    font-size: 22px;
+    float: right;
+    padding-top: 15px;
+}
+
+.about-text{
+    float: right;
+    color: black;
+    font-size: 16px;
+}
+
+.check-icon{
+    height: 25px;
+    width: auto;
+    float: left;
+    margin: 5px 10px;
+}
+
+/*#f88720 orange*/
+/*20D8F8 light blue*/
