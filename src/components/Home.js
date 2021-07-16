@@ -1,19 +1,19 @@
 import React from "react";
-import back from '../../public/roofView.jpg'
+import back from '../images/home-background.jpg'
 import './Home.css'
 /*TODO add a little more */
 
 function Home() {
   return (
       <div
-        class="bg_image"
+        class="bg_image" id={'home'}
         style={{
           backgroundImage: 'url('+back+')',
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundAttachment: "fixed",
           height: "100vh",
-          width: "100%",
+          width: "auto",
           color: "#f5f5f5"
         }}
       >
