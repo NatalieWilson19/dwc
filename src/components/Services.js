@@ -8,6 +8,8 @@ import Building from '../images/icons8-building-64.png'
 /* TODO: Make all padding uniform, change photo of SOS-WA to be of just heatmap, more zoomed in*/
 /*<a target="_blank" href="https://icons8.com/icons/set/link">Link icon</a> icon by <a target="_blank" 
 href="https://icons8.com">Icons8</a> */
+<meta name="description" content="We Provide Services such as Waterproofing for decks, foundations, and general construction. "></meta>
+
 function Services() {
     return (
 

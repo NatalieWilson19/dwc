@@ -4,6 +4,8 @@ import Location from '../images/icons8-marker-96.png'
 import Phone from '../images/icons8-phone-100.png'
 import Mail from '../images/icons8-mail-100.png'
 
+<meta name="description" content="Contact Us! We work all over the Bay Area, including San Francisco, San Rafael, San Anselmo, Tiburon, Mill Valley, Novato, Fairfax, Sausalito, Ross, Corte Madera, Petaluma, Richmond, Berkeley and Oakland"></meta>
+
 function Contact() {
     return(
         <div className="body">

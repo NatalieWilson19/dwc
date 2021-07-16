@@ -1,7 +1,7 @@
 import React from "react";
 import back from '../images/home-background.jpg'
 import './Home.css'
-/*TODO add a little more */
+<meta name="description" content="Duncan Wilson Construction, Waterproofing and Construction Company in San Rafael"></meta>
 
 function Home() {
   return (

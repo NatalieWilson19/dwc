@@ -2,6 +2,8 @@ import React from "react";
 import './About.css'
 import Check from '../images/icons8-checkmark-96.png'
 
+<meta name="description" content="Experience Builders with understanding of both general consturction and specalized knowledge in waterproofing."></meta>
+
 function About() {
     return (
 
