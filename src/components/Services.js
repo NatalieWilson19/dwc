@@ -11,9 +11,9 @@ href="https://icons8.com">Icons8</a> */
 function Services() {
     return (
 
-        <div className="whole-section">
+        <div className="services-page" id={'services'}>
 
-        <div className="section-title" id={'services'} display={'block'}>
+        <div className="section-title" display={'block'}>
             <p> Services </p>
             <div class="wrapper">
             <div className="service-title">

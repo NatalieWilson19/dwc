@@ -5,7 +5,7 @@ import Check from '../images/icons8-checkmark-96.png'
 function About() {
     return (
 
-        <div className="page"  id={'about'}>
+        <div className="about-page"  id={'about'}>
             <div className="checklist">
             <div className="checklist-item">
             <img src={Check} className="check-icon" alt="check"></img>

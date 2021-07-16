@@ -1,5 +1,7 @@
-.whole-section{
+.services-page{
   height: 100vh;
+  display: flex;
+
 }
 .section-title {
   color: #000000;
@@ -9,6 +11,8 @@
   letter-spacing: 5px;
   text-transform: uppercase;
   padding-top: 50px;
+  text-align: center;
+  margin: auto;
 }
 
 .service-title{
