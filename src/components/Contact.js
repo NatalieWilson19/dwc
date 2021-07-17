@@ -16,7 +16,6 @@ function Contact() {
             <p>
                 Contact Us
             </p>
- 
 
         <div className="subtext">
             <p> Contact us for any of your waterpoofing needs. We are based in San Rafael, CA and are available for work in Marin and Sonoma County, San Francisco, and the East Bay. </p>

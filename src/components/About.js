@@ -11,7 +11,6 @@ function About() {
             <MetaTags>
             <title>About Us</title>
             <meta name="description" content="Experience Builders with understanding of both general consturction and specalized knowledge in waterproofing."/>
-
             </MetaTags>
             <div className="checklist">
             <div className="checklist-item">
