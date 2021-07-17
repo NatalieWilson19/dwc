@@ -3,6 +3,7 @@
     height: 8vh;
     position: sticky;
     top: 0;
+    color: grey !important;
   }
 
   .nav-link {
