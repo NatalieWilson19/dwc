@@ -3,18 +3,19 @@ import './Services.css'
 import Water from '../images/icons8-water-64.png'
 import Foundation from '../images/icons8-foundation-100.png'
 import Building from '../images/icons8-building-64.png'
+import MetaTags from 'react-meta-tags';
 
-
-/* TODO: Make all padding uniform, change photo of SOS-WA to be of just heatmap, more zoomed in*/
 /*<a target="_blank" href="https://icons8.com/icons/set/link">Link icon</a> icon by <a target="_blank" 
 href="https://icons8.com">Icons8</a> */
-<meta name="description" content="We Provide Services such as Waterproofing for decks, foundations, and general construction. "></meta>
 
 function Services() {
     return (
 
         <div className="services-page" id={'services'}>
-
+          <MetaTags>
+          <title>Contact</title>
+          <meta name="description" content="We Provide Services such as Waterproofing for decks, foundations, and general construction."/>
+          </MetaTags>
         <div className="section-title" display={'block'}>
             <p> Services </p>
             <div class="wrapper">

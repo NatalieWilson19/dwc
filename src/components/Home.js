@@ -1,10 +1,17 @@
 import React from "react";
 import back from '../images/home-background.jpg'
 import './Home.css'
-<meta name="description" content="Duncan Wilson Construction, Waterproofing and Construction Company in San Rafael"></meta>
+import MetaTags from 'react-meta-tags';
+
+/* Following this tutorial on adding meta tags for React https://www.npmjs.com/package/react-meta-tags */
 
 function Home() {
   return (
+    <div class="Homepage">
+          <MetaTags>
+          <title>Home</title>
+          <meta name="description" content="Duncan Wilson Construction, Waterproofing and Construction Company in San Rafael"/>
+          </MetaTags>
       <div
         class="bg_image" id={'home'}
         style={{
@@ -24,7 +31,7 @@ function Home() {
        </div>
        </div>
        </div>
-
+       </div>
   );
 }
 

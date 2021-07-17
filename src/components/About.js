@@ -1,13 +1,18 @@
 import React from "react";
 import './About.css'
 import Check from '../images/icons8-checkmark-96.png'
+import MetaTags from 'react-meta-tags';
 
-<meta name="description" content="Experience Builders with understanding of both general consturction and specalized knowledge in waterproofing."></meta>
 
 function About() {
     return (
 
         <div className="about-page"  id={'about'}>
+            <MetaTags>
+            <title>About Us</title>
+            <meta name="description" content="Experience Builders with understanding of both general consturction and specalized knowledge in waterproofing."/>
+
+            </MetaTags>
             <div className="checklist">
             <div className="checklist-item">
             <img src={Check} className="check-icon" alt="check"></img>
