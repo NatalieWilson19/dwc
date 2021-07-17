@@ -17,7 +17,7 @@ function NavMenu() {
       <Navbar.Toggle />
       <Navbar.Collapse className="justify-content-end" fixed="top">
         <Nav.Link href="#home" class="ml-auto" >Home</Nav.Link>
-        <Nav.Link href="#services" id="services-id" class="ml-auto">Services</Nav.Link>
+        <Nav.Link href="#services" id="services-id" class="ml-auto" style="color: grey">Services</Nav.Link>
         <Nav.Link href="#about" id="about-id" class="ml-auto">About</Nav.Link>
         <Nav.Link href="#contact" id="contact-id" class="ml-auto">Contact</Nav.Link>
       </Navbar.Collapse>
