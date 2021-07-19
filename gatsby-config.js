@@ -44,23 +44,11 @@ module.exports = {
           return { ...page, ...wpNodeMap[page.path] }
         })
       },
-      serialize: ({ site, allSitePage }) => {
-        const links = [];
-        for (let i = 0; i < allSitePage.edges.length; i++) {
-          const { path } = allSitePage.edges[i].node;
-          if (
-            /products|404|unsupported|account/.test(path)
-          ) {
-            continue;
-          } else if (/en-us|es-us/.test(path)) {
-            links.push({
-              url: site.siteMetadata.siteUrl + path,
-              changefreq: 'daily',
-              priority: 0.8,
-            });
-          }
+      serialize: ({ path, modifiedGmt }) => {
+        return {
+          url: path,
+          lastmod: modifiedGmt,
         }
-        return links;
       },
     },
   },
