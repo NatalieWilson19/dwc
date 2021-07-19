@@ -24,6 +24,7 @@ function NavMenu() {
           "font-size": "14px",
           "letter-spacing": "2px",
           "text-transform": "uppercase",
+          "float": "right",
           }}>Home</Nav.Link>
         <Nav.Link href="#services" id="services-id" class="ml-auto" style={{ 
           color:"grey",
@@ -31,6 +32,7 @@ function NavMenu() {
           "font-size": "14px",
           "letter-spacing": "2px",
           "text-transform": "uppercase",
+          "float": "right",
           }}>Services</Nav.Link>
         <Nav.Link href="#about" id="about-id" class="ml-auto" style={{ 
           color:"grey",
@@ -38,6 +40,7 @@ function NavMenu() {
           "font-size": "14px",
           "letter-spacing": "2px",
           "text-transform": "uppercase",
+          "float": "right",
           }}>About</Nav.Link>
         <Nav.Link href="#contact" id="contact-id" class="ml-auto" style={{ 
           color:"grey",
@@ -45,6 +48,7 @@ function NavMenu() {
           "font-size": "14px",
           "letter-spacing": "2px",
           "text-transform": "uppercase",
+          "float": "right",
           }}>Contact</Nav.Link>
       </Navbar.Collapse>
     </Navbar>
