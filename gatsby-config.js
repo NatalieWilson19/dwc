@@ -11,6 +11,7 @@ module.exports = {
   {
     resolve: "gatsby-plugin-sitemap",
       options: {
+        output: `/sitemap.xml`,
         query: `
         {
           site {
@@ -27,6 +28,7 @@ module.exports = {
           }
         }
       `,
+      resolveSiteUrl: () => siteUrl,
       serialize: ({ site, allSitePage }) => {
         const links = [];
         for (let i = 0; i < allSitePage.edges.length; i++) {
