@@ -1,3 +1,5 @@
+const siteUrl = process.env.URL || `https://dwcbuild.biz`
+
 module.exports = {
   siteMetadata: {
     title: "Duncan Wilson Construction",
