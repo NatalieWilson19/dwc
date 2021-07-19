@@ -25,9 +25,9 @@ function Home() {
         }}
       >
       <div class="Heading">
-      <p> Duncan Wilson Construction</p>
+      <p> DWC</p>
       <div class="subHead">
-      <p> Over 40 years of experience in the Bay Area</p>
+      <p> Duncan Wilson Construction</p>
        </div>
        </div>
        </div>
