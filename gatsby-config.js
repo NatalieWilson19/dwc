@@ -9,46 +9,51 @@ module.exports = {
   },
   plugins: ["gatsby-plugin-gatsby-cloud",
   {
-    resolve: "gatsby-plugin-sitemap",
-      options: {
-        output: `/sitemap.xml`,
-        query: `
-        {
-          site {
-            siteMetadata {
-              siteUrl
+    resolve: `gatsby-plugin-sitemap`,
+    options: {
+      query: `{
+        site {
+          siteMetadata {
+            siteUrlNoSlash
+          }
+        }
+        allSitePage {
+          edges {
+            node {
+              path
             }
           }
-          allSitePage {
-            edges {
-              node {
-                path
+        }
+        allMarkdownRemark {
+          edges {
+            node {
+              fields {
+                slug
               }
             }
           }
         }
-      `,
-      resolveSiteUrl: () => siteUrl,
-      resolvePages: ({
-        allSitePage: { nodes: allPages },
-        allWpContentNode: { nodes: allWpNodes },
-      }) => {
-        const wpNodeMap = allWpNodes.reduce((acc, node) => {
-          const { uri } = node
-          acc[uri] = node
-
-          return acc
-        }, {})
-
-        return allPages.map(page => {
-          return { ...page, ...wpNodeMap[page.path] }
+      }`,
+      serialize: ({ site, allSitePage, allMarkdownRemark }) => {
+        let pages = []
+        allSitePage.edges.map(edge => {
+          pages.push({
+            url: site.siteMetadata.siteUrlNoSlash + edge.node.path,
+            changefreq: `daily`,
+            priority: 0.7,
+          })
         })
-      },
-      serialize: ({ path, modifiedGmt }) => {
-        return {
-          url: path,
-          lastmod: modifiedGmt,
-        }
+        allMarkdownRemark.edges.map(edge => {
+          pages.push({
+            url: `${site.siteMetadata.siteUrlNoSlash}/${
+              edge.node.fields.slug
+            }`,
+            changefreq: `daily`,
+            priority: 0.7,
+          })
+        })
+
+        return pages
       },
     },
   },
