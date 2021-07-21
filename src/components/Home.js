@@ -9,7 +9,6 @@ function Home() {
   return (
     <div class="Homepage">
           <MetaTags>
-          <title>Home</title>
           <meta name="description" content="Duncan Wilson Construction, Waterproofing and Construction Company in San Rafael"/>
           </MetaTags>
       <div

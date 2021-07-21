@@ -9,7 +9,6 @@ function Contact() {
     return(
         <div className="body">
           <MetaTags>
-          <title>Contact</title>
           <meta name="description" content="Contact us for any of your waterproofing needs. We work all over the Bay Area, including San Francisco, San Rafael, San Anselmo, Tiburon, Mill Valley, Novato, Fairfax, Sausalito, Ross, Corte Madera, Petaluma, Richmond, Berkeley and Oakland"/>
           </MetaTags>
         <div className="title" id="contact" display="block">

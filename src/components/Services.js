@@ -13,7 +13,6 @@ function Services() {
 
         <div className="services-page" id={'services'}>
           <MetaTags>
-          <title>Contact</title>
           <meta name="description" content="We Provide Services such as Waterproofing for decks, foundations, and general construction."/>
           </MetaTags>
         <div className="section-title" display={'block'}>
