@@ -2,7 +2,7 @@ import React from "react";
 import './Contact.css'
 import Location from '../images/icons8-marker-96.png'
 import Phone from '../images/icons8-phone-100.png'
-import Mail from '../images/icons8-mail-100.png'
+import Mail from '../images/icons8-marker-100.png'
 import MetaTags from 'react-meta-tags';
 
 function Contact() {
