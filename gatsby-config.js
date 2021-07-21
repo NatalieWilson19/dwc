@@ -7,5 +7,5 @@ module.exports = {
     author: 'Natalie Wilson, BS',
     siteUrl: 'https://dwcbuild.biz'
   },
-  plugins: ["gatsby-plugin-gatsby-cloud", "gatsby-plugin-sitemap"],
+  plugins: ["gatsby-plugin-gatsby-cloud", "gatsby-plugin-sitemap", "gatsby-plugin-robots-txt"],
 }

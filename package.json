@@ -17,6 +17,7 @@
     "bootstrap": "^4.6.0",
     "gatsby": "^3.10.0",
     "gatsby-plugin-gatsby-cloud": "^2.10.0",
+    "gatsby-plugin-robots-txt": "^1.6.8",
     "gatsby-plugin-sitemap": "^4.6.0",
     "react": "^17.0.1",
     "react-bootstrap": "^1.6.1",
