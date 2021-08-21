@@ -5,6 +5,7 @@ import NavMenu from './components/NavMenu.js'
 import Services from './components/Services.js'
 import Contact from './components/Contact.js'
 import About from './components/About.js'
+import Gallery from './components/Gallery.js';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Services />
       <About />
       <Contact />
+      <Gallery />
     </div>
   );
 }

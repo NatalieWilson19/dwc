@@ -1,0 +1,11 @@
+.gallery-page{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+  }
+
+.image{
+    content:url(https://picsum.photos/id/1019/1000/600/);
+    height: 100vh;
+    width: 100%;
+}
