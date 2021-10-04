@@ -2,15 +2,22 @@ import React from "react";
 import back from '../images/home-background.jpg'
 import './Home.css'
 import MetaTags from 'react-meta-tags';
+import {Helmet} from "react-helmet";
 
 /* Following this tutorial on adding meta tags for React https://www.npmjs.com/package/react-meta-tags */
+/*"Duncan Wilson Construction, Waterproofing and Construction Company in San Rafael"*/
+
 
 function Home() {
   return (
     <div class="Homepage">
-          <MetaTags>
-          <meta name="description" content="Duncan Wilson Construction, Waterproofing and Construction Company in San Rafael"/>
-          </MetaTags>
+          <Helmet titleTemplate="DWC" defaultTitle="DWC">
+          <meta
+          name="description"
+          content="Duncan Wilson Construction, Waterproofing and Construction Company in San Rafael"
+          />
+          <meta name="keywords" content="Construction, Waterproofing, Water proofing, Tiling, Bay Area, San Rafael"/>
+          </Helmet>
       <div
         class="bg_image" id={'home'}
         style={{

@@ -1,4 +1,5 @@
 import React from 'react';
+import {BrowserRouter, Switch, Route, HashRouter} from 'react-router-dom';
 import './App.css';
 import Home from './components/Home.js'
 import NavMenu from './components/NavMenu.js'
@@ -8,13 +9,27 @@ import About from './components/About.js'
 
 function App() {
   return (
-    <div className="App">
+    <HashRouter>
+    <div className="App-Router">
       <NavMenu />
+      <Route exact path={["/home", "/"]}>
       <Home />
-      <Services />
-      <About />
-      <Contact />
+      </Route>
+          <Route exact path="/services" >
+            <Services />
+            </Route>
+            <Services />
+            <Route path="/about">
+            <About />
+            </Route>
+            <About />
+            <Route path="/contact">
+            <Contact />
+          </Route>
+          <Contact />
+
     </div>
+    </HashRouter>
   );
 }
 

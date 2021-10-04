@@ -4,13 +4,16 @@ import Location from '../images/icons8-marker-100.png'
 import Phone from '../images/icons8-phone-100.png'
 import Mail from '../images/icons8-mail-100.png'
 import MetaTags from 'react-meta-tags';
+import { Helmet } from "react-helmet";
 
 function Contact() {
     return(
+
         <div className="body">
-          <MetaTags>
+          <Helmet>
+              <title>Contact</title>
           <meta name="description" content="Contact us for any of your waterproofing needs. We work all over the Bay Area, including San Francisco, San Rafael, San Anselmo, Tiburon, Mill Valley, Novato, Fairfax, Sausalito, Ross, Corte Madera, Petaluma, Richmond, Berkeley and Oakland"/>
-          </MetaTags>
+          </Helmet>
         <div className="title" id="contact" display="block">
             <p>
                 Contact Us

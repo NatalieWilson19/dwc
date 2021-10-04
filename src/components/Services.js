@@ -4,18 +4,21 @@ import Water from '../images/icons8-water-64.png'
 import Foundation from '../images/icons8-foundation-100.png'
 import Building from '../images/icons8-building-64.png'
 import MetaTags from 'react-meta-tags';
+import {Helmet} from "react-helmet";
 
 /*<a target="_blank" href="https://icons8.com/icons/set/link">Link icon</a> icon by <a target="_blank" 
 href="https://icons8.com">Icons8</a> */
+/*We Provide Services such as Waterproofing for decks, foundations, and general construction.*/
 
 function Services() {
     return (
 
         <div className="services-page" id={'services'}>
-          <MetaTags>
-          <meta name="description" content="We Provide Services such as Waterproofing for decks, foundations, and general construction."/>
-          </MetaTags>
+
         <div className="section-title" display={'block'}>
+        <Helmet>
+          <title>Services</title>
+          </Helmet>
             <p> Services </p>
             <div class="wrapper">
             <div className="service-title">
