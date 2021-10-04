@@ -16,7 +16,8 @@ function Home() {
           name="description"
           content="Duncan Wilson Construction, Waterproofing and Construction Company in San Rafael, Marin County, CA"
           />
-          <meta name="keywords" content="Construction, Waterproofing, Water proofing, Tiling, Bay Area, San Rafael, Marin, Marin County, San Anselmo"/>
+          <meta name="keywords" content="Construction, Waterproofing, Water proofing, Tiling, Bay Area, San Rafael, Marin, Marin County, San Anselmo, DWC, dwcbuild, dwc construction, duncan wilson construction"/>
+          <meta name="robots" content="User-agent: * Disallow: "/>
           </Helmet>
       <div
         class="bg_image" id={'home'}
