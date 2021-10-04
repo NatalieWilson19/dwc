@@ -14,9 +14,9 @@ function Home() {
           <Helmet titleTemplate="DWC" defaultTitle="DWC">
           <meta
           name="description"
-          content="Duncan Wilson Construction, Waterproofing and Construction Company in San Rafael"
+          content="Duncan Wilson Construction, Waterproofing and Construction Company in San Rafael, Marin County, CA"
           />
-          <meta name="keywords" content="Construction, Waterproofing, Water proofing, Tiling, Bay Area, San Rafael"/>
+          <meta name="keywords" content="Construction, Waterproofing, Water proofing, Tiling, Bay Area, San Rafael, Marin, Marin County, San Anselmo"/>
           </Helmet>
       <div
         class="bg_image" id={'home'}

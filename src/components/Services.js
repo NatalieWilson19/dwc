@@ -14,10 +14,13 @@ function Services() {
     return (
 
         <div className="services-page" id={'services'}>
-
         <div className="section-title" display={'block'}>
         <Helmet>
           <title>Services</title>
+          <meta
+          name="description"
+          content="waterproofing for walking decks such as urethane decks, neoprene decks that serve as a pre-proof undertile and concrete, and floating wooden decks."
+          />
           </Helmet>
             <p> Services </p>
             <div class="wrapper">
