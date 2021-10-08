@@ -1,9 +1,10 @@
 import React from "react";
 import './About.css'
 import Check from '../images/icons8-checkmark-96.png'
-import MetaTags from 'react-meta-tags';
 import { Helmet } from "react-helmet";
 
+
+//why does it think meta tags is still here?
 function About() {
     return (
 
