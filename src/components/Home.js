@@ -1,8 +1,7 @@
 import React from "react";
 import back from '../images/home-background.jpg'
 import './Home.css'
-import MetaTags from 'react-meta-tags';
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 
 /* Following this tutorial on adding meta tags for React https://www.npmjs.com/package/react-meta-tags */
 /*"Duncan Wilson Construction, Waterproofing and Construction Company in San Rafael"*/

@@ -3,8 +3,7 @@ import './Services.css'
 import Water from '../images/icons8-water-64.png'
 import Foundation from '../images/icons8-foundation-100.png'
 import Building from '../images/icons8-building-64.png'
-import MetaTags from 'react-meta-tags';
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 
 /*<a target="_blank" href="https://icons8.com/icons/set/link">Link icon</a> icon by <a target="_blank" 
 href="https://icons8.com">Icons8</a> */
