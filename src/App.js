@@ -12,7 +12,7 @@ function App() {
     <HashRouter>
     <div className="App-Router">
       <NavMenu />
-      <Route exact path={["/home", ""]}>
+      <Route exact path={["/home"]}>
       <Home />
       </Route>
           <Route exact path="/services" >
