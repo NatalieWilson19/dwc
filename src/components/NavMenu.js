@@ -25,6 +25,7 @@ function NavMenu() {
           "letter-spacing": "2px",
           "text-transform": "uppercase",
           "float": "right",
+          "padding-right": "5px"
           }}>Home</Nav.Link>
         <Nav.Link href="#services" id="services-id" class="ml-auto" style={{ 
           color:"grey",
