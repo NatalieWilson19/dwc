@@ -18,16 +18,11 @@ function App() {
     <div className="App-Router">
       <NavMenu />
       <Home />
-<<<<<<< HEAD
-            <Services />
-            <About />
-            <Contact />
-=======
       <Services />
       <About />
-      <Contact />
       <Gall />
->>>>>>> gallery
+      <Contact />
+
     </div>
   );
 }
