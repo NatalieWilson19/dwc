@@ -5,6 +5,8 @@ import NavMenu from './components/NavMenu.js'
 import Services from './components/Services.js'
 import Contact from './components/Contact.js'
 import About from './components/About.js'
+import Gall from "./components/Gall.js"
+
 
 
 /* Apparently since Gatsby handles routing for you, it dislikes you trying to use 'react-router-dom' so I'll remove
@@ -16,9 +18,16 @@ function App() {
     <div className="App-Router">
       <NavMenu />
       <Home />
+<<<<<<< HEAD
             <Services />
             <About />
             <Contact />
+=======
+      <Services />
+      <About />
+      <Contact />
+      <Gall />
+>>>>>>> gallery
     </div>
   );
 }

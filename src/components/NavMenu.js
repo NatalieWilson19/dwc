@@ -57,6 +57,14 @@ function NavMenu() {
           "float": "right",
           "text-decoration": "none"
           }}>Contact</Nav.Link>
+          <Nav.Link href="#gallery" id="gallery-id" class="ml-auto" style={{ 
+          color:"grey",
+          "font-family": "montserrat, sans-serif",
+          "font-size": "14px",
+          "letter-spacing": "2px",
+          "text-transform": "uppercase",
+          "float": "right",
+          }}>Gallery</Nav.Link>
       </Navbar.Collapse>
     </Navbar>
     </div>
