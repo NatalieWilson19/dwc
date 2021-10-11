@@ -26,12 +26,10 @@ function Gall() {
         <Splide
           options={ {
             type: 'loop',
-            /*
             width: '100wv',
             height: '100vh',
             cover: 'true',
             heightRatio: '1',
-            */
             } }>
               <SplideSlide>
                   <img src={image13} alt="connor sanding in sausalito"/>

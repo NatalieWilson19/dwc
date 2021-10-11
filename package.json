@@ -16,6 +16,7 @@
   "dependencies": {
     "@emotion/react": "^11.4.1",
     "@emotion/styled": "^11.3.0",
+    "@loadable/component": "^5.15.0",
     "@splidejs/react-splide": "^0.4.4",
     "@splidejs/splide": "^3.1.2",
     "bootstrap": "^4.6.0",
