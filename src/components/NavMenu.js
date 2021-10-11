@@ -48,6 +48,16 @@ function NavMenu() {
           "padding-right": "10px",
           "text-decoration": "none"
           }}>About</Nav.Link>
+          <Nav.Link href="#gallery" id="gallery-id" class="ml-auto" style={{ 
+          color:"grey",
+          "font-family": "montserrat, sans-serif",
+          "font-size": "14px",
+          "letter-spacing": "2px",
+          "text-transform": "uppercase",
+          "float": "right",
+          "padding-right": "10px",
+          "text-decoration": "none"
+          }}>Gallery</Nav.Link>
         <Nav.Link href="#contact" id="contact-id" class="ml-auto" style={{ 
           color:"grey",
           "font-family": "montserrat, sans-serif",
@@ -57,14 +67,7 @@ function NavMenu() {
           "float": "right",
           "text-decoration": "none"
           }}>Contact</Nav.Link>
-          <Nav.Link href="#gallery" id="gallery-id" class="ml-auto" style={{ 
-          color:"grey",
-          "font-family": "montserrat, sans-serif",
-          "font-size": "14px",
-          "letter-spacing": "2px",
-          "text-transform": "uppercase",
-          "float": "right",
-          }}>Gallery</Nav.Link>
+
       </Navbar.Collapse>
     </Navbar>
     </div>

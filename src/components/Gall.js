@@ -1,7 +1,7 @@
 import React from "react";
 import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 import "./Gallery.css";
-import { Splide, SplideSlide } from '@splidejs/react-splide';
+import { Splide, SplideSlide } from "@splidejs/react-splide";
 import image1 from "../content/gallery/image1_1.jpeg";
 import image2 from "../content/gallery/image2.jpeg";
 import image3 from "../content/gallery/image3.jpeg";
@@ -22,14 +22,16 @@ import image16 from "../content/gallery/image16.jpeg";
 
 function Gall() {
   return (
-      <div className="gallery-page"  id={'gallery-id'}>
+      <div className="gallery-page"  id={'gallery'}>
         <Splide
           options={ {
             type: 'loop',
+            /*
             width: '100wv',
             height: '100vh',
             cover: 'true',
             heightRatio: '1',
+            */
             } }>
               <SplideSlide>
                   <img src={image13} alt="connor sanding in sausalito"/>
