@@ -6,7 +6,7 @@
     color: grey !important;
   }
 
-  .nav-link {
+  .nav a {
     color: grey !important;
     font-family: montserrat, sans-serif;
     font-size: 14px;
