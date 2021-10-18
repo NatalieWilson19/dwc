@@ -13,6 +13,12 @@ const Gall = loadable(() => import('./components/Gall.js'))
 and see it it fixes
 https://github.com/gatsbyjs/gatsby/issues/12706 */
 
+
+/* 
+using loadable components to use client side libraries with gatsby
+https://snappywebdesign.net/blog/gatsby-code-splitting/
+https://www.gatsbyjs.com/docs/using-client-side-only-packages/#workaround-3-load-client-side-dependent-components-with-react-loadable
+*/
 function App() {
   return (
     <div className="App-Router">
