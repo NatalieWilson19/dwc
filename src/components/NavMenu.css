@@ -13,8 +13,8 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     float: right;
-    padding-right: 10px;
-    text-decoration: none;
+    padding-right: 2px;
+    text-decoration: none !important;
     /*position: relative;
     padding-left: 950px;*/
 }
