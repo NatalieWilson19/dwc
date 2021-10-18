@@ -18,55 +18,11 @@ function NavMenu() {
     <Navbar>
       <Navbar.Toggle />
       <Navbar.Collapse className="justify-content-end" fixed="top">
-        <Nav.Link href="#home" class="ml-auto" style={{ 
-          color:"grey",
-          "font-family": "montserrat, sans-serif",
-          "font-size": "14px",
-          "letter-spacing": "2px",
-          "text-transform": "uppercase",
-          "float": "right",
-          "padding-right": "10px",
-          "text-decoration": "none"
-          }}>Home</Nav.Link>
-        <Nav.Link href="#services" id="services-id" class="ml-auto" style={{ 
-          color:"grey",
-          "font-family": "montserrat, sans-serif",
-          "font-size": "14px",
-          "letter-spacing": "2px",
-          "text-transform": "uppercase",
-          "float": "right",
-          "padding-right": "10px",
-          "text-decoration": "none"
-          }}>Services</Nav.Link>
-        <Nav.Link href="#about" id="about-id" class="ml-auto" style={{ 
-          color:"grey",
-          "font-family": "montserrat, sans-serif",
-          "font-size": "14px",
-          "letter-spacing": "2px",
-          "text-transform": "uppercase",
-          "float": "right",
-          "padding-right": "10px",
-          "text-decoration": "none"
-          }}>About</Nav.Link>
-          <Nav.Link href="#gallery" id="gallery-id" class="ml-auto" style={{ 
-          color:"grey",
-          "font-family": "montserrat, sans-serif",
-          "font-size": "14px",
-          "letter-spacing": "2px",
-          "text-transform": "uppercase",
-          "float": "right",
-          "padding-right": "10px",
-          "text-decoration": "none"
-          }}>Gallery</Nav.Link>
-        <Nav.Link href="#contact" id="contact-id" class="ml-auto" style={{ 
-          color:"grey",
-          "font-family": "montserrat, sans-serif",
-          "font-size": "14px",
-          "letter-spacing": "2px",
-          "text-transform": "uppercase",
-          "float": "right",
-          "text-decoration": "none"
-          }}>Contact</Nav.Link>
+        <Nav.Link href="#home" class="ml-auto">Home</Nav.Link>
+        <Nav.Link href="#services" id="services-id" class="ml-auto">Services</Nav.Link>
+        <Nav.Link href="#about" id="about-id" class="ml-auto">About</Nav.Link>
+          <Nav.Link href="#gallery" id="gallery-id" class="ml-auto">Gallery</Nav.Link>
+        <Nav.Link href="#contact" id="contact-id" class="ml-auto">Contact</Nav.Link>
 
       </Navbar.Collapse>
     </Navbar>

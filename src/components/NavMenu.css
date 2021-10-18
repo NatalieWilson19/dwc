@@ -12,6 +12,9 @@
     font-size: 14px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    float: right;
+    padding-right: 10px;
+    text-decoration: none;
     /*position: relative;
     padding-left: 950px;*/
 }
